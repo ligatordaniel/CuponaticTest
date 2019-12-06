@@ -15,8 +15,7 @@
 
 <body>
 	<header>
-
-
+		<!--////////////..barra de navegacion..//////////-->
 		<div class="navbar fixed-top">
 			<div class="boton-menu">
 				<div class="container-fluid row mx-auto">
@@ -28,72 +27,86 @@
 				</div>
 			</div>
 
-
+			<!--sideBar de Menu-->
 			<div id="mySidebar" class="sidebar">
 				<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
 				<a href="#">About</a>
 				<a href="#">Services</a>
 				<a href="#">Clients</a>
 				<a href="#">Contact</a>
-			  </div>
-			  
+			</div>
+			<!--sideBar de Menu-->
 
+			<!--sideBar de Orden-->
+			<div id="myOrden" class="sidebar">
+				<a href="javascript:void(0)" class="closebtn" onclick="closeOrden()">×</a>
+				<a href="#"><img src="assets/img/globales/fechaIzquier.png" alt="">Ordenar Por</a>
+				<a href="#">Services</a>
+				<a href="#">Clients</a>
+				<a href="#">Contact</a>
+			</div>
+			<!--sideBar de Orden-->
 
-
+			<!--sideBar de Filtro-->
+			<div id="myFiltro" class="sidebar">
+				<a href="javascript:void(0)" class="closebtn" onclick="closeFiltro()">×</a>
+				<a href="#"><img src="assets/img/globales/fechaIzquier.png" alt="">Filtrar Por</a>
+				<a href="#">Services <img src="assets/img/globales/fechaAbajo.png"></a>
+				<a href="#">Clients <img src="assets/img/globales/fechaAbajo.png"></a>
+				<a href="#">Contact <img src="assets/img/globales/fechaAbajo.png"></a>
+			</div>
+			<!--sideBar de Filtro-->
 		</div>
-
+		<!--///////////..barra de navegacion..//////////-->
 	</header>
 
-
 	<div class="container-fluid grey"><br><br><br>
+	<!--////////////..Botones Orden Filtro Mapa..////////////-->
+	
 		<div class="container row options mb-2">
 			<div class="col-4">
-				<button class="btn btn-sm btn-light" type="submit"><img src="assets/img/globales/orden.png" alt="" srcset=""></button>
+				<button class="btn btn-sm btn-light" onclick="openOrden()"><img src="assets/img/globales/orden.png"
+						alt="btnOrden"></button>
 			</div>
 			<div class="col-4">
-				<button class="btn btn-sm btn-light" type="submit"><img src="assets/img/globales/filtros.png" alt="" srcset=""></button>
-			</div> 
+				<button class="btn btn-sm btn-light" onclick="openFiltro()"><img src="assets/img/globales/filtros.png"
+						alt="btnFiltro"></button>
+			</div>
 			<div class="col-4">
-				<button class="btn btn-sm btn-light" type="submit"><img src="assets/img/globales/mapa.png" alt="" srcset=""></button>
-			</div> 
+				<button class="btn btn-sm btn-light"><img src="assets/img/globales/mapa.png" alt="btnMap"></button>
+			</div>
 		</div>
 	
+	<!--////////////..Botones Orden Filtro Mapa..////////////-->
 
+	<!--////////////..Contenido Productos..////////////-->
+		<div class="card m-auto" style="width: 16rem;">
+			<img class="card-img-top" src="assets/img/globales/imgGris.png" alt="Card image cap">
+			<div class="card-body">
+				<h2 class="card-title">Card title</h5>
+					<p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+						card's content.</p>
+					<a href="#" class="btn btn-primary">Go somewhere</a>
+			</div>
+		</div><br>
 
-
-	<div class="card m-auto" style="width: 16rem;">
-		<img class="card-img-top" src="assets/img/globales/imgGris.png" alt="Card image cap">
-		<div class="card-body">
-		  <h2 class="card-title">Card title</h5>
-		  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-		  <a href="#" class="btn btn-primary">Go somewhere</a>
+		<div class="card m-auto" style="width: 16rem;">
+			<img class="card-img-top" src="assets/img/globales/imgGris.png" alt="Card image cap">
+			<div class="card-body">
+				<h2 class="card-title">Card title</h5>
+					<p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+						card's content.</p>
+					<a href="#" class="btn btn-primary">Go somewhere</a>
+			</div>
 		</div>
-	  </div><br>
-	
-	<div class="card m-auto" style="width: 16rem;">
-		<img class="card-img-top" src="assets/img/globales/imgGris.png" alt="Card image cap">
-		<div class="card-body">
-		  <h2 class="card-title">Card title</h5>
-		  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-		  <a href="#" class="btn btn-primary">Go somewhere</a>
-		</div>
-	  </div>
-
-
-
-
-
-
-
-
-
-
+	<!--////////////..Contenido Productos..////////////-->
 
 
 
 	</div>
 	<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
-	<script src="assets/js/sidebar.js"></script>
+	<script src="assets/js/main.js"></script>
+
 
 </body>
 
