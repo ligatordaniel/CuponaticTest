@@ -35,3 +35,15 @@ function openFiltro() {
 }
 //sidebar Filtro
 ////////////////////////////////////////////////////////////////////////////////
+//sidebar maps
+function openMap() {
+	document.getElementById("myMap").style.width = "100%";
+	document.getElementById("main").style.marginLeft = "250px";
+  }
+ 
+  function closeMap() {
+	document.getElementById("myMap").style.width = "0";
+	document.getElementById("main").style.marginLeft= "0";
+}
+//sidebar maps
+////////////////////////////////////////////////////////////////////////////////

@@ -13,7 +13,7 @@
 </head>
 
 <body>
-	<header>
+	<header onclick="closeMap();">
 		<!--////////////..barra de navegacion..//////////-->
 		<div class="navbar fixed-top">
 			<div class="boton-menu">
@@ -29,7 +29,7 @@
 			<!--sideBar de Menu-->
 			<div id="mySidebar" class="sidebar">
 				<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
-				<a href="#">About</a>
+				<a href="#">Home</a>
 				<a href="#">Services</a>
 				<a href="#">Clients</a>
 				<a href="#">Contact</a>
@@ -54,14 +54,15 @@
 				<a href="#">Clients <img src="assets/img/globales/fechaAbajo.png"></a>
 				<a href="#">Contact <img src="assets/img/globales/fechaAbajo.png"></a>
 			</div>
+
 			<!--sideBar de Filtro-->
 		</div>
 		<!--///////////..barra de navegacion..//////////-->
 	</header>
 
 	<div class="container-fluid grey"><br><br><br>
-	<!--////////////..Botones Orden Filtro Mapa..////////////-->
-	
+		<!--////////////..Botones Orden Filtro Mapa..////////////-->
+
 		<div class="container row options mb-2">
 			<div class="col-4">
 				<button class="btn btn-sm btn-light" onclick="openOrden()"><img src="assets/img/globales/orden.png"
@@ -72,13 +73,22 @@
 						alt="btnFiltro"></button>
 			</div>
 			<div class="col-4">
-				<button class="btn btn-sm btn-light"><img src="assets/img/globales/mapa.png" alt="btnMap"></button>
+				<button class="btn btn-sm btn-light" onclick="openMap();"><img src="assets/img/globales/mapa.png"
+						alt="btnMap"></button>
 			</div>
 		</div>
-	
-	<!--////////////..Botones Orden Filtro Mapa..////////////-->
 
-	<!--////////////..Contenido Productos..////////////-->
+		<!--////////////..Botones Orden Filtro Mapa..////////////-->
+
+		<!--////////////..Mapa..////////////-->
+
+		<div id="myMap" class="sidebarMap">
+			<div id="map" class="map"></div>
+		</div>
+
+		<!--////////////..Mapa..////////////-->
+
+		<!--////////////..Contenido Productos..////////////-->
 		<div class="card m-auto" style="width: 16rem;">
 			<img class="card-img-top" src="assets/img/globales/imgGris.png" alt="Card image cap">
 			<div class="card-body">
@@ -98,13 +108,18 @@
 					<a href="#" class="btn btn-primary">Go somewhere</a>
 			</div>
 		</div>
-	<!--////////////..Contenido Productos..////////////-->
+		<!--////////////..Contenido Productos..////////////-->
 
 
 
 	</div>
 	<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
 	<script src="assets/js/main.js"></script>
+	<script src="assets/js/googleMaps.js"></script>
+	<script
+		src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC-Mhmd7Dy4ClEYkUK7RIQegMbYC1COnls&callback=iniciarMap">
+	</script>
+
 
 
 </body>

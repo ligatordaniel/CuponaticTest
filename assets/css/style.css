@@ -106,5 +106,34 @@ body {
 }
 
 /*barra opciones (orden filtro mapa) */
+/*GoogleMaps*/
+.map {
+  height: 78.5%;
+  width: 100%;
+}
+
+.sidebarMap {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 140px;
+  left: 0;
+  background-color: #e0e0e0;
+  overflow-x: hidden;
+  transition: 1.3s;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidebarMap {
+    padding-top: 15px;
+  }
+
+  .sidebarMap a {
+    font-size: 18px;
+  }
+}
+/*GoogleMaps*/
 
 /*# sourceMappingURL=style.css.map */
