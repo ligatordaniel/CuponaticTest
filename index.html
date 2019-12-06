@@ -17,49 +17,67 @@
 	<header>
 
 
-		<div class="navegacion fixed-top">
+		<div class="navbar fixed-top">
 			<div class="boton-menu">
-				<div class="container-fluid row">
-					<a href="#"><span class="icon icon-menu"></span></a>
-					<img class="logoPrincipal mr-2" src="assets/img/globales/logoCuponatic.png" alt="">
-					<img class="logoGlobal ml-2" src="assets/img/globales/logoBusqueda.png" alt="">
-					<img class="logoGlobal ml-1" src="assets/img/globales/logoCuenta.png" alt="">
+				<div class="container-fluid row mx-auto">
+
+					<img class="logoGlobal" src="assets/img/globales/logoMenu.png" onclick="openNav()" alt="">
+					<img class="logoPrincipal" src="assets/img/globales/logoCuponatic.png" alt="">
+					<img class="logoGlobal mr-2" src="assets/img/globales/logoBusqueda.png" alt="">
+					<img class="logoGlobal" src="assets/img/globales/logoCuenta.png" alt="">
 				</div>
 			</div>
 
-			<nav>
-				<ul class="menu">
-					<li><a href="#">Inicio</a></li>
-					<li><a href="#">Nosotros</a></li>
-					<li><a href="#">Servicios</a></li>
-					<li><a href="#">Contacto</a></li>
-				</ul>
-			</nav>
+
+			<div id="mySidebar" class="sidebar">
+				<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+				<a href="#">About</a>
+				<a href="#">Services</a>
+				<a href="#">Clients</a>
+				<a href="#">Contact</a>
+			  </div>
+			  
+
+
+
 		</div>
 
 	</header>
 
 
-	<br><br>
-
-	<div class="card">
-			<div class="box">
-				<div class="img">
-					<img src="assets/img/globales/imgGris.png">
-				</div>
-				<h2>Prakash Prajapati<br><span>Web Graphic Designer</span></h2>
-				<p> Lorem ipsum dolor sit amet.</p>
-				<span>
-					<ul>
-						<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-						<li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-						<li><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
-						<li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-						<li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-					</ul>
-				</span>
+	<div class="container-fluid grey"><br><br><br>
+		<div class="container row options mb-2">
+			<div class="col-4">
+				<button class="btn btn-sm btn-light" type="submit"><img src="assets/img/globales/orden.png" alt="" srcset=""></button>
 			</div>
+			<div class="col-4">
+				<button class="btn btn-sm btn-light" type="submit"><img src="assets/img/globales/filtros.png" alt="" srcset=""></button>
+			</div> 
+			<div class="col-4">
+				<button class="btn btn-sm btn-light" type="submit"><img src="assets/img/globales/mapa.png" alt="" srcset=""></button>
+			</div> 
 		</div>
+	
+
+
+
+	<div class="card m-auto" style="width: 16rem;">
+		<img class="card-img-top" src="assets/img/globales/imgGris.png" alt="Card image cap">
+		<div class="card-body">
+		  <h2 class="card-title">Card title</h5>
+		  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+		  <a href="#" class="btn btn-primary">Go somewhere</a>
+		</div>
+	  </div><br>
+	
+	<div class="card m-auto" style="width: 16rem;">
+		<img class="card-img-top" src="assets/img/globales/imgGris.png" alt="Card image cap">
+		<div class="card-body">
+		  <h2 class="card-title">Card title</h5>
+		  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+		  <a href="#" class="btn btn-primary">Go somewhere</a>
+		</div>
+	  </div>
 
 
 
@@ -73,6 +91,7 @@
 
 
 
+	</div>
 	<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
 	<script src="assets/js/sidebar.js"></script>
 
