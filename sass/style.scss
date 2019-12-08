@@ -22,17 +22,18 @@ body {
 
 .navbar {
 	background-color: #0094DE;
+	height: 12%;
+
 	.fas {
 		color: white;
 		font-size: 130%;
-		margin: auto;
-		span{
-			font-size: 40%;
-			position: absolute;
-			top: 55px;
-			left: 25px;
+		margin: 2%;
 
-
+		p{
+			font-size: 35%;
+			text-align: center;
+			vertical-align: text-bottom;
+			margin-top: 2px;
 		}
 	}
 }
@@ -40,8 +41,6 @@ body {
 .logoPrincipal {
 	width: 40%;
 	height: 10%;
-	margin: 5%;
-	;
 }
 
 

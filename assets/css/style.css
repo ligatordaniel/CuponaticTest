@@ -19,23 +19,23 @@ body {
 
 .navbar {
   background-color: #0094DE;
+  height: 12%;
 }
 .navbar .fas {
   color: white;
   font-size: 130%;
-  margin: auto;
+  margin: 2%;
 }
-.navbar .fas span {
-  font-size: 40%;
-  position: absolute;
-  top: 55px;
-  left: 25px;
+.navbar .fas p {
+  font-size: 35%;
+  text-align: center;
+  vertical-align: text-bottom;
+  margin-top: 2px;
 }
 
 .logoPrincipal {
   width: 40%;
   height: 10%;
-  margin: 5%;
 }
 
 /*estilo global*/
