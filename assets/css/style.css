@@ -23,6 +23,13 @@ body {
 .navbar .fas {
   color: white;
   font-size: 130%;
+  margin: auto;
+}
+.navbar .fas span {
+  font-size: 40%;
+  position: absolute;
+  top: 55px;
+  left: 25px;
 }
 
 .logoPrincipal {
