@@ -13,51 +13,59 @@
 </head>
 
 <body>
-	<header onclick="closeMap();">
+	<header onclick="closeMap()">
 		<!--////////////..barra de navegacion..//////////-->
 		<div class="navbar fixed-top">
 			<div class="boton-menu">
-				<div class="container-fluid row mx-auto">
+				<div class="container-fluid row">
+					<div class="d-flex justify-content-between">
 
-					<img class="logoGlobal" src="assets/img/globales/logoMenu.png" onclick="openNav()" alt="">
-					<img class="logoPrincipal" src="assets/img/globales/logoCuponatic.png" alt="">
-					<img class="logoGlobal mr-2" src="assets/img/globales/logoBusqueda.png" alt="">
-					<img class="logoGlobal" src="assets/img/globales/logoCuenta.png" alt="">
+
+						<i class="fas fa-bars" onclick="openNav()"></i>
+
+						<img class="logoPrincipal" src="assets/img/globales/logoCuponatic.png" alt="">
+
+						<i class="fas fa-search"></i>
+
+						<i class="fas fa-user-circle"></i>
+
+
+
+					</div>
 				</div>
-			</div>
 
-			<!--sideBar de Menu-->
-			<div id="mySidebar" class="sidebar">
-				<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
-				<a href="#">Home</a>
-				<a href="#">Services</a>
-				<a href="#">Clients</a>
-				<a href="#">Contact</a>
-			</div>
-			<!--sideBar de Menu-->
+				<!--sideBar de Menu-->
+				<div id="mySidebar" class="sidebar">
+					<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+					<a href="#">Home</a>
+					<a href="#">Services</a>
+					<a href="#">Clients</a>
+					<a href="#">Contact</a>
+				</div>
+				<!--sideBar de Menu-->
 
-			<!--sideBar de Orden-->
-			<div id="myOrden" class="sidebar">
-				<a href="javascript:void(0)" class="closebtn" onclick="closeOrden()">×</a>
-				<a href="#"><img src="assets/img/globales/fechaIzquier.png" alt="">Ordenar Por</a>
-				<a href="#">Services</a>
-				<a href="#">Clients</a>
-				<a href="#">Contact</a>
-			</div>
-			<!--sideBar de Orden-->
+				<!--sideBar de Orden-->
+				<div id="myOrden" class="sidebar">
+					<a href="javascript:void(0)" class="closebtn" onclick="closeOrden()">×</a>
+					<a href="#"><img src="assets/img/globales/fechaIzquier.png" alt="">Ordenar Por</a>
+					<a href="#">Services</a>
+					<a href="#">Clients</a>
+					<a href="#">Contact</a>
+				</div>
+				<!--sideBar de Orden-->
 
-			<!--sideBar de Filtro-->
-			<div id="myFiltro" class="sidebar">
-				<a href="javascript:void(0)" class="closebtn" onclick="closeFiltro()">×</a>
-				<a href="#"><img src="assets/img/globales/fechaIzquier.png" alt="">Filtrar Por</a>
-				<a href="#">Services <img src="assets/img/globales/fechaAbajo.png"></a>
-				<a href="#">Clients <img src="assets/img/globales/fechaAbajo.png"></a>
-				<a href="#">Contact <img src="assets/img/globales/fechaAbajo.png"></a>
-			</div>
+				<!--sideBar de Filtro-->
+				<div id="myFiltro" class="sidebar">
+					<a href="javascript:void(0)" class="closebtn" onclick="closeFiltro()">×</a>
+					<a href="#"><img src="assets/img/globales/fechaIzquier.png" alt="">Filtrar Por</a>
+					<a href="#">Services <img src="assets/img/globales/fechaAbajo.png"></a>
+					<a href="#">Clients <img src="assets/img/globales/fechaAbajo.png"></a>
+					<a href="#">Contact <img src="assets/img/globales/fechaAbajo.png"></a>
+				</div>
 
-			<!--sideBar de Filtro-->
-		</div>
-		<!--///////////..barra de navegacion..//////////-->
+				<!--sideBar de Filtro-->
+			</div>
+			<!--///////////..barra de navegacion..//////////-->
 	</header>
 
 	<div class="container-fluid grey"><br><br><br>
@@ -116,6 +124,7 @@
 	<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
 	<script src="assets/js/main.js"></script>
 	<script src="assets/js/googleMaps.js"></script>
+	<script src="https://kit.fontawesome.com/edd4bdce87.js" crossorigin="anonymous"></script>
 	<script
 		src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC-Mhmd7Dy4ClEYkUK7RIQegMbYC1COnls&callback=iniciarMap">
 	</script>

@@ -20,16 +20,15 @@ body {
 .navbar {
   background-color: #0094DE;
 }
+.navbar .fas {
+  color: white;
+  font-size: 130%;
+}
 
 .logoPrincipal {
   width: 40%;
   height: 10%;
   margin: 5%;
-}
-
-.logoGlobal {
-  width: 15%;
-  height: 25%;
 }
 
 /*estilo global*/
