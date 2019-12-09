@@ -20,7 +20,7 @@ body {
 
 .navbar {
   background-color: #0094DE;
-  height: 12%;
+  height: 70px;
 }
 .navbar .fas {
   color: white;
@@ -41,6 +41,10 @@ body {
 
 /*estilo global*/
 /*barra opciones (orden filtro mapa) */
+.options {
+  margin-top: 70px;
+  padding: 10px;
+}
 .options .btn {
   background: white;
 }
