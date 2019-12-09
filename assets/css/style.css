@@ -41,6 +41,9 @@ body {
 
 /*estilo global*/
 /*barra opciones (orden filtro mapa) */
+.options {
+  padding-top: 27%;
+}
 .options .btn {
   background: white;
 }
