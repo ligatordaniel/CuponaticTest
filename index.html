@@ -9,7 +9,7 @@
 	<link rel="stylesheet" href="assets/css/style.css">
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
 		integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-
+		<link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -19,7 +19,7 @@
 			<div class="boton-menu">
 				<div class="d-flex m-auto bd-highlight">
 
-					<i class="fas fa-bars" onclick="openNav()">
+					<i class="fas fa-bars mr-3" onclick="openNav()">
 						<p>MENU</p>
 					</i>
 
@@ -74,19 +74,18 @@
 	<div class="container-fluid grey"><br><br><br>
 		<!--////////////..Botones Orden Filtro Mapa..////////////-->
 
-		<div class="container row options mb-2">
-			<div class="col-4">
-				<button class="btn btn-sm btn-light" onclick="openOrden()"><img src="assets/img/globales/orden.png"
-						alt="btnOrden"></button>
-			</div>
-			<div class="col-4">
-				<button class="btn btn-sm btn-light" onclick="openFiltro()"><img src="assets/img/globales/filtros.png"
-						alt="btnFiltro"></button>
-			</div>
-			<div class="col-4">
-				<button class="btn btn-sm btn-light" onclick="openMap();"><img src="assets/img/globales/mapa.png"
-						alt="btnMap"></button>
-			</div>
+		<div class="d-flex justify-content-around options mb-2">
+				<button class="btn btn-sm" onclick="openOrden()">
+				<i class="fas fa-sort-amount-down-alt"></i><span class="ml-1">Orden</span></button>
+						
+	
+				<button class="btn btn-sm" onclick="openFiltro()">
+						<i class="fas fa-sliders-h"></i><span class="ml-1">Filtro</span></button>
+		
+			
+				<button class="btn btn-sm" onclick="openMap()">
+						<i class="fas fa-map"></i><span class="ml-1">Mapa</span></button>
+			
 		</div>
 
 		<!--////////////..Botones Orden Filtro Mapa..////////////-->
@@ -100,7 +99,7 @@
 		<!--////////////..Mapa..////////////-->
 
 		<!--////////////..Contenido Productos..////////////-->
-		<div class="card m-auto" style="width: 16rem;">
+		<div class="card m-auto">
 			<img class="card-img-top" src="assets/img/globales/imgGris.png" alt="Card image cap">
 			<div class="card-body">
 				<h2 class="card-title">Card title</h5>
@@ -110,15 +109,15 @@
 			</div>
 		</div><br>
 
-		<div class="card m-auto" style="width: 16rem;">
-			<img class="card-img-top" src="assets/img/globales/imgGris.png" alt="Card image cap">
-			<div class="card-body">
-				<h2 class="card-title">Card title</h5>
-					<p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-						card's content.</p>
-					<a href="#" class="btn btn-primary">Go somewhere</a>
+		<div class="card m-auto">
+				<img class="card-img-top" src="assets/img/globales/imgGris.png" alt="Card image cap">
+				<div class="card-body">
+					<h2 class="card-title">Card title</h5>
+						<p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+							card's content.</p>
+						<a href="#" class="btn btn-primary">Go somewhere</a>
+				</div>
 			</div>
-		</div>
 		<!--////////////..Contenido Productos..////////////-->
 
 

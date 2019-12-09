@@ -5,6 +5,7 @@
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
+  font-family: "Lato", sans-serif;
 }
 
 body {
@@ -39,6 +40,23 @@ body {
 }
 
 /*estilo global*/
+/*barra opciones (orden filtro mapa) */
+.options .btn {
+  background: white;
+}
+.options .fas {
+  font-size: 200px;
+  font-size: 100%;
+  margin-top: 3px;
+  color: #888787;
+}
+
+span {
+  font-size: 90%;
+  color: #888787;
+}
+
+/*barra opciones (orden filtro mapa) */
 /*slidbar*/
 .sidebar {
   height: 100%;
@@ -103,15 +121,6 @@ body {
   }
 }
 /*slidbar*/
-/*barra opciones (orden filtro mapa) */
-.options {
-  float: none;
-}
-.options img {
-  width: 70px;
-}
-
-/*barra opciones (orden filtro mapa) */
 /*GoogleMaps*/
 .map {
   height: 78.5%;
