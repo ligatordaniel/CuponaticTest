@@ -128,7 +128,7 @@ span {
 /*slidbar*/
 /*GoogleMaps*/
 .map {
-  height: 78.5%;
+  height: 79.5%;
   width: 100%;
 }
 
@@ -137,7 +137,7 @@ span {
   width: 0;
   position: fixed;
   z-index: 1;
-  top: 140px;
+  top: 130px;
   left: 0;
   background-color: #e0e0e0;
   overflow-x: hidden;
