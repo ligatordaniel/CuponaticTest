@@ -18,7 +18,6 @@ body {
 
 .grey {
 	background-color: rgb(224, 224, 224)
-	/*background-color: rgb(224, 224, 224);*/
 }
 
 .navbar {
@@ -96,6 +95,8 @@ span {
 
 .sidebar a:hover {
 	color: #0094DE;
+	border-left: 10px solid #0094DE;
+	padding: 25px;
 }
 
 .sidebar .closebtn {
@@ -135,7 +136,37 @@ span {
 	}
 }
 
-/*slidbar*/
+.sidebar {
+	img {
+		width: 5%;
+		height: 5%;
+	}
+	h3 {
+		font-size: 110%;
+	}
+	.tituloSidebar{
+		font-weight: bolder;
+		
+	}
+	.botonesSidebar{
+		border-bottom: 1px solid rgb(143, 142, 142);
+		font-size: 70%;
+		padding: 20px;
+		padding-left: 50px;
+
+		img {
+			position: absolute;
+			left: 290px;
+			width: 5%;
+			height: auto;
+
+		}
+		
+	}
+
+}
+
+/*sidebar*/
 
 
 /*GoogleMaps*/
@@ -198,8 +229,9 @@ span {
 	}
 
 	.price {
-		color: rgb(199, 133, 12);
+		color: rgb(235, 165, 35);
 		font-size: 140%;
+		font-weight: bolder;
 		position: relative;
 		top: -6px;
 	}
@@ -208,6 +240,7 @@ span {
 		position: relative;
 		top: 28px;
 		left: -85px;
+		text-decoration:line-through;
 		
 	}
 }

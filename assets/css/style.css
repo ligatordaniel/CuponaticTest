@@ -86,6 +86,8 @@ span {
 
 .sidebar a:hover {
   color: #0094DE;
+  border-left: 10px solid #0094DE;
+  padding: 25px;
 }
 
 .sidebar .closebtn {
@@ -124,7 +126,30 @@ span {
     font-size: 18px;
   }
 }
-/*slidbar*/
+.sidebar img {
+  width: 5%;
+  height: 5%;
+}
+.sidebar h3 {
+  font-size: 110%;
+}
+.sidebar .tituloSidebar {
+  font-weight: bolder;
+}
+.sidebar .botonesSidebar {
+  border-bottom: 1px solid #8f8e8e;
+  font-size: 70%;
+  padding: 20px;
+  padding-left: 50px;
+}
+.sidebar .botonesSidebar img {
+  position: absolute;
+  left: 290px;
+  width: 5%;
+  height: auto;
+}
+
+/*sidebar*/
 /*GoogleMaps*/
 .map {
   height: 79.5%;
@@ -180,8 +205,9 @@ span {
   align-items: center;
 }
 .card .price {
-  color: #c7850c;
+  color: #eba523;
   font-size: 140%;
+  font-weight: bolder;
   position: relative;
   top: -6px;
 }
@@ -190,6 +216,7 @@ span {
   position: relative;
   top: 28px;
   left: -85px;
+  text-decoration: line-through;
 }
 
 /*Product Cards*/
