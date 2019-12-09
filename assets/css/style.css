@@ -15,8 +15,7 @@ body {
 }
 
 .grey {
-  background-color: #9e3737;
-  /*background-color: rgb(224, 224, 224);*/
+  background-color: #e0e0e0;
 }
 
 .navbar {
@@ -155,5 +154,44 @@ span {
   }
 }
 /*GoogleMaps*/
+/*Product Cards*/
+.card {
+  border-radius: 7px;
+  box-shadow: 2px 2px 15px #666;
+}
+.card img {
+  border-radius: 6px;
+  width: 100%;
+  height: 100%;
+}
+.card h2 {
+  font-size: 100%;
+  font-weight: bolder;
+}
+.card .discount {
+  width: 50px;
+  height: 50px;
+  color: white;
+  font-size: 90%;
+  background-color: #0094DE;
+  border-radius: 7px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card .price {
+  color: #c7850c;
+  font-size: 140%;
+  position: relative;
+  top: -6px;
+}
+.card .spanTachado {
+  font-size: 75%;
+  position: relative;
+  top: 28px;
+  left: -85px;
+}
+
+/*Product Cards*/
 
 /*# sourceMappingURL=style.css.map */
